@@ -22,7 +22,7 @@ jobs:
             python3-venv autoconf libtool pkg-config \
             zlib1g-dev libncurses5-dev libtinfo6 \
             cmake libffi-dev libssl-dev automake \
-            autopoint gettext
+            autopoint gettext libltdl-dev
 
       - name: Set up Python
         uses: actions/setup-python@v5
